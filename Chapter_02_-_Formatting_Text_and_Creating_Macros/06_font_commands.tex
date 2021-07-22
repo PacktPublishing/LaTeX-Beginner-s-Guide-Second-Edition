@@ -1,0 +1,23 @@
+% Used for Figure 2.6: Font commands
+\documentclass{article}
+\usepackage{booktabs}
+\renewcommand*\c{\ttfamily\textbackslash}
+\begin{document}
+\sffamily
+\begin{tabular}{lll}
+\toprule
+\textbf{Command} & \textbf{Declaration} & \textbf{Meaning} \\
+\midrule
+\c textrm\{\ldots\}     & \c rmfamily   & \normalfont\rmfamily roman family      \\
+\c textsf\{\ldots\}     & \c sffamily   & \normalfont\sffamily sans-serif family \\
+\c texttt\{\ldots\}     & \c ttfamily   & \normalfont\ttfamily typewriter family \\
+\c textbf\{\ldots\}     & \c bfseries   & \normalfont\bfseries bold-face         \\
+\c textmd\{\ldots\}     & \c mdseries   & \normalfont\mdseries medium            \\
+\c textit\{\ldots\}     & \c itshape    & \normalfont\itshape  italic shape      \\
+\c textsl\{\ldots\}     & \c slshape    & \normalfont\slshape  slanted shape     \\
+\c textsc\{\ldots\}     & \c scshape    & \normalfont\scshape  Small Caps shape  \\
+\c textup\{\ldots\}     & \c upshape    & \normalfont\upshape  upright shape     \\
+\c textnormal\{\ldots\} & \c normalfont & \normalfont          default font      \\
+\bottomrule
+\end{tabular}
+\end{document}
