@@ -1,0 +1,27 @@
+\documentclass{article}
+\usepackage{parskip}
+\usepackage{graphicx}
+\usepackage{varioref}
+\usepackage{blindtext}
+\begin{document}
+\section{Figures}
+\begin{figure}
+\includegraphics{example-image}
+\caption{An example figure}
+\label{fig:example}
+\end{figure}
+\blindtext
+\begin{figure}
+\includegraphics{example-image}
+\caption{Another example figure}
+\label{fig:other}
+\end{figure}
+\newpage
+Same reference code, different output:
+\begin{verbatim}
+See the \vpageref[above figure][figure]{fig:other} and
+the \vpageref[above figure][figure]{fig:example}.
+\end{verbatim}
+See the \vpageref[above figure][figure]{fig:other} and
+the \vpageref[above figure][figure]{fig:example}.
+\end{document}

@@ -1,0 +1,22 @@
+\documentclass{book}
+\usepackage{cleveref}
+\crefname{enumi}{position}{positions}
+\begin{document}
+\chapter{Statistics}
+\label{stats}
+\section{Most used packages by LaTeX.org users}
+\label{packages}
+The Top Five packages, used by LaTeX.org
+members\footnote{according to the 2021 survey on
+LaTeX.org\label{project}}:
+\begin{enumerate}
+  \item graphicx\label{graphicx}
+  \item babel
+  \item amsmath\label{amsmath}
+  \item geometry
+  \item hyperref
+\end{enumerate}
+\chapter{Mathematics}
+\label{maths}
+See \crefrange{graphicx}{amsmath} and \cpagerefrange{stats}{maths}.
+\end{document}

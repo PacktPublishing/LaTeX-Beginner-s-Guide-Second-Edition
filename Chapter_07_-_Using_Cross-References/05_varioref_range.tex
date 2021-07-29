@@ -1,0 +1,29 @@
+\documentclass{book}
+\usepackage{parskip}
+\usepackage{graphicx}
+\usepackage[nospace]{varioref}
+\usepackage{xcolor}
+\usepackage{blindtext}
+\begin{document}
+\chapter{Figures}
+\begin{figure}
+\includegraphics{example-image}
+\caption{An example figure}
+\label{fig:example}
+\end{figure}
+\clearpage
+\begin{figure}
+\includegraphics{example-image}
+\caption{Another example figure}
+\label{fig:other}
+\end{figure}
+\clearpage
+\begin{figure}
+\includegraphics{example-image}
+\caption{And another example figure}
+\label{fig:last}
+\end{figure}
+\clearpage
+See the figures \textcolor{red}{\vpagerefrange{fig:example}{fig:last}}
+and figures \textcolor{blue}{\vrefrange{fig:example}{fig:last}}.
+\end{document}
