@@ -1,0 +1,16 @@
+\documentclass{article} 
+\usepackage{booktabs}
+\newcommand{\head}[1]{\textnormal{\textbf{#1}}} 
+\begin{document}
+\begin{tabular}{@{}*{3}l@{}}
+  \toprule[1.5pt]
+  \multicolumn{2}{c}{\head{Input}} &
+  \multicolumn{1}{c}{\head{Output}}\\
+  \head{Command} & \head{Declaration} & \\
+  \cmidrule(r){1-2}\cmidrule(l){3-3}
+  \verb|\textrm| & \verb|\rmfamily| & \rmfamily Example text\\
+  \verb|\textsf| & \verb|\sffamily| & \sffamily Example text\\
+  \verb|\texttt| & \verb|\ttfamily| & \ttfamily Example text\\
+  \bottomrule[1.5pt]
+\end{tabular}
+\end{document}

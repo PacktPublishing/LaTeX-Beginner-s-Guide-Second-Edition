@@ -1,0 +1,39 @@
+\documentclass{article}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{multirow}
+\newcommand{\head}[1]{\textnormal{\textbf{#1}}}
+\newcommand{\normal}[1]{\multicolumn{1}{l}{#1}}
+\begin{document}
+\begin{table}
+  \centering
+  \begin{tabular}{@{}l*{2}{>{\textbackslash\ttfamily}l}%
+    l<{Example text}l@{}}
+    \toprule[1.5pt]
+    & \multicolumn{2}{c}{\head{Input}}
+    & \multicolumn{2}{c}{\head{Output}}\\
+    & \normal{\head{Command}}    & \normal{\head{Declaration}}
+    & \normal{\head{Single use}} & \head{Combined}\\
+    \cmidrule(lr){2-3}\cmidrule(l){4-5}
+    \multirow{3}{*}{Family} & textrm & rmfamily & \rmfamily & \\
+                            & textsf & sffamily & \sffamily & \\
+                            & texttt & ttfamily & \ttfamily & \\
+    \cmidrule(lr){2-3}\cmidrule(lr){4-4}
+    \multirow{2}{1.1cm}{Weight} & textbf & bfseries & \bfseries
+    & \multirow{2}{1.8cm}{\sffamily\bfseries Bold and
+      sans-serif}\\
+                            & textmd & mdseries & \mdseries & \\
+    \cmidrule(lr){2-3}\cmidrule(lr){4-4}
+    \multirow{4}{*}{Shape}  & textit & itshape  & \itshape  & \\
+                            & textsl & slshape  & \slshape  &
+    \multirow{2}{1.8cm}{\sffamily\slshape Slanted and
+      sans-serif}\\
+                            & textsc & scshape  & \scshape  & \\
+                            & textup & upshape  & \upshape  & \\
+    \cmidrule(lr){2-3}\cmidrule(lr){4-4}
+    Default & textnormal & normalfont & \normalfont & \\
+    \bottomrule[1.5pt]
+  \end{tabular}
+  \caption{\LaTeX\ font selection}
+\end{table}
+\end{document}
