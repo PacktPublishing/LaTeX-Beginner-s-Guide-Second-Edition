@@ -1,0 +1,23 @@
+\documentclass{book}
+\setcounter{tocdepth}{3}
+\begin{document}
+\tableofcontents
+\part{First Part}
+\chapter*{Preface}
+\addcontentsline{toc}{chapter}{Preface}
+\chapter{First main chapter}
+\section{A section}
+\section{Another section}
+\subsection{A smaller section}
+\subsubsection[Deeper level]{This section has an even deeper
+level}
+\chapter{Second main chapter}
+\part{Second part}
+\chapter{Third main chapter}
+\appendix
+\cleardoublepage
+\addtocontents{toc}{\bigskip}
+\addcontentsline{toc}{part}{Appendix}
+\chapter{Glossary}
+\chapter{Symbols}
+\end{document}

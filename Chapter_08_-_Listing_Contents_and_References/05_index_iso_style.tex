@@ -1,0 +1,66 @@
+\documentclass{book}
+\usepackage{index}
+\makeindex
+\setcounter{tocdepth}{3}
+\renewcommand{\figurename}{Diagram}
+\renewcommand{\listfigurename}{List of Diagrams}
+\newcommand{\group}{\TeX\ Users Group}
+\begin{document}
+\tableofcontents
+\listoffigures
+\part{First Part}
+\chapter*{Preface}
+\addcontentsline{toc}{chapter}{Preface}
+\chapter{First main chapter}
+\section{A section}
+\begin{figure}
+\centering
+\fbox{Diagram placeholder}
+\caption{\index{enterprise}Enterprise Organizational Chart}
+\end{figure}
+\index{enterprise!organization}
+\index{enterprise!organization!sales}
+\index{enterprise!organization!controlling}
+\index{enterprise!organization!operation}
+\section{Another section}
+\subsection{A smaller section}
+\subsubsection[Deeper level]{This section has an even deeper
+level}
+\chapter{Second main chapter}
+\part{Second part}
+\chapter{Third main chapter}
+\index{network|(}
+\addtocontents{lof}{Network Diagrams:}
+\index{network}
+\index{network!overview}
+\begin{figure}
+\centering
+\fbox{Diagram placeholder}
+\caption{Network overview}
+\end{figure}
+\begin{figure}
+\centering
+\fbox{Diagram placeholder}
+\caption{WLAN Design}
+\end{figure}
+\clearpage
+% index commands for testing
+\index{wireless|see{WLAN}}
+\index{WLAN|emph}
+\index{Gamma@$\Gamma$}
+\index{\group\ sorted wrong}
+\index{TeX@\group\ sorted correctly}
+\index{schon@sch\"{o}n}
+\index{exclamation ("!)!loud}
+End of network chapter.
+\index{network|)}
+\appendix
+\cleardoublepage
+\addtocontents{toc}{\bigskip}
+\addcontentsline{toc}{part}{Appendix}
+\chapter{Glossary}
+\chapter{Symbols}
+\clearpage
+\addcontentsline{toc}{chapter}{Index}
+\printindex
+\end{document}

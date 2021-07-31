@@ -1,0 +1,42 @@
+\documentclass{book}
+\setcounter{tocdepth}{3}
+\renewcommand{\figurename}{Diagram}
+\renewcommand{\listfigurename}{List of Diagrams}
+\begin{document}
+\tableofcontents
+\listoffigures
+\part{First Part}
+\chapter*{Preface}
+\addcontentsline{toc}{chapter}{Preface}
+\chapter{First main chapter}
+\section{A section}
+\begin{figure}
+\centering
+\fbox{Diagram placeholder}
+\caption{Enterprize Organizational Chart}
+\end{figure}
+\section{Another section}
+\subsection{A smaller section}
+\subsubsection[Deeper level]{This section has an even deeper
+level}
+\chapter{Second main chapter}
+\part{Second part}
+\chapter{Third main chapter}
+\addtocontents{lof}{Network Diagrams:}
+\begin{figure}
+\centering
+\fbox{Diagram placeholder}
+\caption{Network overview}
+\end{figure}
+\begin{figure}
+\centering
+\fbox{Diagram placeholder}
+\caption{WLAN Design}
+\end{figure}
+\appendix
+\cleardoublepage
+\addtocontents{toc}{\bigskip}
+\addcontentsline{toc}{part}{Appendix}
+\chapter{Glossary}
+\chapter{Symbols}
+\end{document}
