@@ -1,0 +1,20 @@
+\documentclass{article}
+\newcommand*\s[1]{\(#1\)&\texttt{\string#1}}
+\setlength{\tabcolsep}{1.8ex}
+\usepackage{booktabs}
+\usepackage{latexsym}
+\begin{document}
+\sffamily
+\centering
+\begin{tabular}{*3{c@{~}l}}
+\toprule
+\multicolumn{6}{c}{\bfseries Standard \LaTeX} \\
+\s\sqsubseteq & \s\subset & \s\supset   \\
+\s\sqsupseteq   &  \s\subseteq  & \s\supseteq \\
+\midrule
+\multicolumn{6}{c}{\bfseries latexsym }\\
+\multicolumn{3}{c}{\(\sqsubset\) ~ \texttt{\string\sqsubset}}
+& \multicolumn{3}{c}{\(\sqsupset\) ~ \texttt{\string\sqsupset}}\\
+\bottomrule
+\end{tabular}
+\end{document}

@@ -1,0 +1,21 @@
+\documentclass{article}
+\newcommand*\s[1]{$\displaystyle\Big#1$&\texttt{\string#1}}
+\renewcommand*\arraystretch{1.8}
+\setlength{\tabcolsep}{2ex}
+\usepackage{booktabs}
+\begin{document}
+\begin{tabular}{*3{c@{\quad}l}}
+\toprule
+\multicolumn{6}{c}{\bfseries Pairs of braces, brackets  and parentheses} \\
+\(\Big(\ \Big)\) & \verb|( )| & \(\Big\{\ \Big\}\) & \verb|\{ \}| & \(\Big\lceil\ \Big\rceil\) & \verb|\lceil \rceil|\\
+\({\Big[\ \Big]}\) & \verb|[ ]|  & \(\Big\langle\ \Big\rangle\) & \verb|\langle \rangle|& \(\Big\lfloor\ \Big\rfloor\) & \verb|\lfloor \rfloor| \\
+\midrule
+\multicolumn{6}{c}{\bfseries Delimiting symbols and arrows}\\
+\s/ & \s\downarrow & \s\updownarrow \\
+\s\backslash & \s\Downarrow & \s\Updownarrow\\
+\s| & \s\uparrow \\
+\s\| &  \s\Uparrow \\
+%\s\unlhd & \s\unrhd  & \s\rhd & \s\lhd \\
+\bottomrule
+\end{tabular}
+\end{document}

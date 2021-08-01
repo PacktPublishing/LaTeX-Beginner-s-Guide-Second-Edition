@@ -1,0 +1,14 @@
+\documentclass{article}
+\newcommand*\s[1]{\(#1\)&\texttt{\string#1}}
+\setlength{\tabcolsep}{1.8ex}
+\usepackage{booktabs}
+\begin{document}
+\sffamily
+\centering
+\begin{tabular}{*3{c@{~}l}}
+%\toprule
+\s\leftharpoondown & \s\rightharpoondown & \s\rightleftharpoons \\
+\s\leftharpoonup & \s\rightharpoonup \\
+%\bottomrule
+\end{tabular}
+\end{document}

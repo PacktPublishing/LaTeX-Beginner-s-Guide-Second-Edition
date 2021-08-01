@@ -1,0 +1,26 @@
+\documentclass{article}
+\newcommand*\s[1]{\(#1\)&\texttt{\string#1}}
+\setlength{\tabcolsep}{1.8ex}
+\usepackage{booktabs}
+\usepackage{latexsym}
+\begin{document}
+\sffamily
+\centering
+\begin{tabular}{*3{c@{~}l}}
+\toprule
+\multicolumn{6}{c}{\bfseries Standard \LaTeX} \\
+\s\downarrow       &  \s\Longleftarrow      & \s\Rightarrow   \\
+\s\Downarrow       &  \s\longleftrightarrow & \s\searrow   \\
+\s\hookleftarrow   &  \s\Longleftrightarrow & \s\swarrow  \\
+\s\hookrightarrow  &  \s\longmapsto         & \s\uparrow      \\
+\s\leftarrow       &  \s\longrightarrow     & \s\Uparrow  \\
+\s\Leftarrow       &  \s\Longrightarrow     & \s\updownarrow   \\
+\s\leftrightarrow  &  \s\mapsto             & \s\Updownarrow  \\
+\s\Leftrightarrow  &  \s\nwarrow \\
+\s\longleftarrow   &  \s\rightarrow \\
+\midrule
+\multicolumn{6}{c}{\bfseries latexsym }\\
+\multicolumn{6}{c}{\(\leadsto\) ~ \texttt{\string\leadsto}}\\
+\bottomrule
+\end{tabular}
+\end{document}

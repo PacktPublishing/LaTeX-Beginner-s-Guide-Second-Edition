@@ -1,0 +1,18 @@
+\documentclass{article}
+\setlength{\tabcolsep}{1.8ex}
+\usepackage{array}
+\usepackage{booktabs}
+\begin{document}
+\sffamily
+\centering
+\begin{tabular}{*4{>{$}c<{$}@{~}l}}
+\toprule
+\acute{a} & \verb|\acute{a}| &\check{a} & \verb|\check{a}| &\grave{a} & \verb|\grave{a}| &\tilde{a} & \verb|\tilde{a}| \\
+\bar{a} & \verb|\bar{a}|  & \ddot{a} & \verb|\ddot{a}| & \hat{a} & \verb|\hat{a}| & \vec{a} & \verb|\vec{a}|   \\
+\breve{a} & \verb|\breve{a}| & \dot{a} & \verb|\dot{a}| & \mathring{a} & \verb|\mathring{a}| \\
+\midrule
+\multicolumn{8}{c}{\textbf{Extensible}} \\
+\multicolumn{4}{c}{$\widehat{abc}$\,\ \texttt{\string\widehat\{abc\}}} & \multicolumn{4}{c}{$\widetilde{abc}$\,\ \texttt{\string\widetilde\{abc\}}}\\
+\bottomrule
+\end{tabular}
+\end{document}

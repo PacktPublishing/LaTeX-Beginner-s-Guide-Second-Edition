@@ -1,0 +1,21 @@
+\documentclass{article}
+\newcommand*\s[1]{\(#1\)&\texttt{\string#1}}
+\setlength{\tabcolsep}{1.8ex}
+\usepackage{booktabs}
+\usepackage{latexsym}
+\begin{document}
+\begin{tabular}{*4{c@{~}l}}
+\toprule
+\multicolumn{8}{c}{\bfseries Standard \LaTeX} \\
+\s\approx   & \s\equiv    &  \s\prec   & \s\succ \\
+\s\asymp    & \s\frown    &  \s\preceq & \s\succeq  \\
+\s\bowtie   & \s\mid      &  \s\propto & \s\vdash \\
+\s\cong     & \s\models   &  \s\sim    &   \\
+\s\dashv    & \s\parallel &  \s\simeq      \\
+\s\doteq    & \s\perp     &  \s\smile      \\
+\midrule
+\multicolumn{8}{c}{\bfseries latexsym }\\
+\multicolumn{8}{c}{\(\Join\) ~ \texttt{\string\Join}} \\
+\bottomrule
+\end{tabular}
+\end{document}

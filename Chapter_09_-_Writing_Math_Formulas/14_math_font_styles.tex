@@ -1,0 +1,24 @@
+\documentclass{article}
+\usepackage{booktabs}
+\usepackage{amsfonts}
+\usepackage{bbm}
+\usepackage{dsfont}
+\usepackage{eufrak}
+\renewcommand*\c{\textbackslash\ttfamily}
+\begin{document}
+\sffamily
+\begin{tabular}{lll}
+\toprule
+\textbf{Command} & \textbf{Used package} & \textbf{Example} \\
+\midrule
+\c mathrm\{\ldots\}     &          & \(\mathrm{roman\ 123}\) \\
+\c mathit\{\ldots\}     &          & \(\mathit{italic\ 123}\) \\
+\c mathsf\{\ldots\}     &          & \(\mathsf{sans-serif\ 123}\) \\
+\c mathbb\{\ldots\}     & amsfonts & \(\mathbb{ABC}\)  \\
+\c mathbbm\{\ldots\}    & bbm      & \(\mathbbm{C R Q Z 1}\)  \\
+\c mathds\{\ldots\}     & dsfont   &\(\mathds{C R Q Z 1}\)  \\
+\c mathfrak\{\ldots\}   & eufrak   & \(\mathfrak{A B C \ 1 2 3}\)  \\
+\c mathnormal\{\ldots\} &          & \(\mathnormal{normal}\)  \\
+\bottomrule
+\end{tabular}
+\end{document}

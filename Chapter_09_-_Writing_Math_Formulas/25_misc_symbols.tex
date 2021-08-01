@@ -1,0 +1,22 @@
+\documentclass{article}
+\newcommand*\s[1]{\(#1\)&\texttt{\string#1}}
+\setlength{\tabcolsep}{1.8ex}
+\usepackage{booktabs}
+\usepackage{latexsym}
+\begin{document}
+\sffamily
+\centering
+\begin{tabular}{*4{c@{~}l}}
+\toprule
+\multicolumn{8}{c}{\bfseries Standard \LaTeX }\\
+\s\aleph      &  \s\emptyset  &  \s\nabla  &  \s\sharp  \\
+\s\angle      &    \s\flat  &\s\natural  & \s\spadesuit  \\
+\s\clubsuit   &  \s\heartsuit & \s\neg   &  \s\surd \\
+\s\diamondsuit & \s\infty  &\s\prime  &  \s\triangle \\
+\midrule
+\multicolumn{8}{c}{\bfseries latexsym}\\
+\multicolumn{4}{c}{\(\Box\) ~ \texttt{\string\Box}}
+& \multicolumn{4}{c}{\(\Diamond\) ~ \texttt{\string\Diamond}}\\
+\bottomrule
+\end{tabular}
+\end{document}

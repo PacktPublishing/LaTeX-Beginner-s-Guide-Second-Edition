@@ -1,0 +1,20 @@
+\documentclass{article}
+\newcommand*\s[1]{\(#1\)&\texttt{\string#1}}
+\setlength{\tabcolsep}{1.8ex}
+\usepackage{booktabs}
+\usepackage{latexsym}
+\begin{document}
+\sffamily
+\centering
+\begin{tabular}{*5{c@{~}l}}
+\toprule
+\multicolumn{10}{c}{\bfseries Standard \LaTeX} \\
+\s\bot & \s\forall & \s\imath & \s\ni  & \s\top \\
+\s\ell & \s\hbar & \s\in  & \s\partial & \s\wp \\
+\s\exists & \s\Im  & \s\jmath & \s\Re \\
+\midrule
+\multicolumn{10}{c}{\bfseries latexsym }\\
+\multicolumn{10}{c}{\(\mho\) ~ \texttt{\string\mho}}\\
+\bottomrule
+\end{tabular}
+\end{document}

@@ -1,0 +1,22 @@
+\documentclass{article}
+\usepackage{amsmath}
+\newtheorem{thm}{Theorem}
+\newtheorem{dfn}[thm]{Definition}
+\begin{document}
+\begin{dfn}
+  A quadratic equation is an equation of the form
+  \begin{equation}
+    \label{quad}
+    ax^2 + bx + c = 0,
+  \end{equation}
+  where \( a, b \) and \( c \) are constants and \( a \neq 0 \).
+\end{dfn}
+\begin{thm}
+  A quadratic equation (\ref{quad}) has two solutions for the
+  Variable \( x \):
+  \begin{equation}
+    \label{root}
+    x_{1,2} = \frac{-b \pm \sqrt{b^2-4ac}}{2a}.
+  \end{equation}
+\end{thm}
+\end{document}

@@ -1,0 +1,25 @@
+\documentclass{article}
+\newcommand*\s[1]{\(#1\)&\texttt{\string#1}}
+\setlength{\tabcolsep}{1ex}
+\usepackage{booktabs}
+\usepackage{latexsym}
+\begin{document}
+\sffamily
+\centering
+\begin{tabular}{*4{c@{~}l}}
+\toprule
+\multicolumn{8}{c}{\bfseries Standard \LaTeX} \\
+\s\amalg           &  \s\circ      & \s\ominus   &   \s\star      \\
+\s\ast             &  \s\cup       & \s\oplus    &   \s\times  \\
+\s\bigcirc         &  \s\dagger    & \s\oslash   &   \s\triangleleft\\
+\s\bigtriangledown &  \s\ddagger   & \s\otimes   &   \s\triangleright \\
+\s\bigtriangleup   &  \s\diamond   & \s\pm       &   \s\uplus   \\
+\s\bullet          &  \s\div       & \s\setminus &   \s\vee     \\
+\s\cap             &  \s\mp        & \s\sqcap    &   \s\wedge   \\
+\s\cdot            &  \s\odot      & \s\sqcup    &   \s\wr      \\
+\midrule
+\multicolumn{8}{c}{\bfseries latexsym }\\
+\s\unlhd & \s\unrhd  & \s\rhd & \s\lhd \\
+\bottomrule
+\end{tabular}
+\end{document}
