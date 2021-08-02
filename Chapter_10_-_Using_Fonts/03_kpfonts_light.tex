@@ -1,0 +1,17 @@
+\documentclass{article}
+\newcommand{\pangram}[1]{{#1 The quick brown fox jumps over
+  the lazy dog. 1234567890\par}}
+\usepackage[T1]{fontenc}
+\usepackage[light]{kpfonts}
+\begin{document}
+\large
+\pangram{\rmfamily}
+\pangram{\sffamily}
+\pangram{\ttfamily}
+\pangram{\itshape}
+\pangram{\slshape}
+\[
+  \int_a^b \! f(x) \, dx = \lim_{\Delta x \rightarrow 0}
+  \sum_{i=1}^{n} f(x_i) \,\Delta x_i
+\]
+\end{document}
