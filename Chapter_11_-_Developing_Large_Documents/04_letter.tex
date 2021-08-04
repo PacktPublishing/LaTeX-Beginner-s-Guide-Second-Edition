@@ -1,0 +1,16 @@
+\documentclass[fontsize=12pt, paper=a4]{scrlttr2}
+\usepackage[utf8]{inputenc}
+\setkomavar{fromname}{My name} % your name
+\setkomavar{fromaddress}{Street, City}
+\setkomavar{signature}{Name} % printed after the \closing
+\setkomavar{subject}{Invoice 1/2021} % subject of the letter
+\setkomavar{place}{Place}
+\setkomavar{date}{January 1, 2021}
+\begin{document}
+\begin{letter}{Customer Name\\ Street No. X \\ City \\ Zipcode}
+  \opening{To whom it may concern} % eg. Hello
+  Text follows \ldots
+  \bigskip
+  \closing{With kind regards} %eg. Regards
+\end{letter}
+\end{document}

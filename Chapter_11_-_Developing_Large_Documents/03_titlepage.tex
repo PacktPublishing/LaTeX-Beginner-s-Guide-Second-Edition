@@ -1,0 +1,19 @@
+\documentclass{book}
+\usepackage[a5paper]{geometry}% could go to the preamble instead
+\input{preamble}
+\begin{document}
+\frontmatter
+\include{title}
+\include{dedication}
+\tableofcontents
+\listoftables
+\listoffigures
+\mainmatter
+\include{chapter1}
+\include{chapter2}
+\backmatter
+\include{proofs}
+\nocite{*}
+\bibliographystyle{plainnat}
+\bibliography{example}
+\end{document}
