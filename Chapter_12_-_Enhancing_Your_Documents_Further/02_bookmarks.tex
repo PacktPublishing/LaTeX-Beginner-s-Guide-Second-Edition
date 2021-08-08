@@ -1,0 +1,17 @@
+\documentclass{article}
+\usepackage{bm}
+\usepackage[colorlinks=true,psdextra,unicode]{hyperref}
+\begin{document}
+\pdfbookmark[1]{\contentsname}{toc}
+\tableofcontents
+\pdfbookmark[1]{Abstract}{abstract}
+\begin{abstract}
+\centering
+Sample sections follow.
+\end{abstract}
+\section{The equation \texorpdfstring{$y=x^2$}{y=x\texttwosuperior}}
+\section{\texorpdfstring{$\gamma$}{\textgamma} radiation}
+\section[\texorpdfstring{Let $\int\sim\sum$ for $n\rightarrow\infty$}
+                        {Let \int\sim\sum\ for n\rightarrow\infty}]
+        {Let $\bm{\int\sim\sum}$ for $\bm{n\rightarrow\infty}$}
+\end{document}

@@ -1,0 +1,29 @@
+\usepackage{lmodern} 
+\usepackage{microtype} 
+\usepackage{natbib} 
+\usepackage{tocbibind} 
+\usepackage{amsmath} 
+\usepackage{amsthm} 
+% default, figures 12.1 and 12.2:
+%\usepackage{hyperref}
+% colored, figure 12.3:
+\usepackage[colorlinks=true,linkcolor=red]{hyperref}
+% metadata, figure 12.4:
+\hypersetup{pdfauthor={Carl Friedrich Gauss},
+  pdftitle={The Big Book of Equations},
+  pdfsubject={Solving Equations and Equation Systems},
+  pdfkeywords={equations,mathematics}}
+
+\newtheorem{thm}{Theorem}[chapter] 
+\newtheorem{lem}[thm]{Lemma} 
+\theoremstyle{definition} 
+\newtheorem{dfn}[thm]{Definition}
+% with titlesec, figure 12.6
+\usepackage{titlesec}
+\titleformat{\chapter}[display]
+  {\normalfont\sffamily\Large\bfseries\centering}
+  {\chaptertitlename\ \thechapter}{0pt}{\Huge}
+\titleformat{\section}
+  {\normalfont\sffamily\large\bfseries\centering}
+  {\thesection}{1em}{}
+\titlespacing*{\chapter}{0pt}{30pt}{20pt}
