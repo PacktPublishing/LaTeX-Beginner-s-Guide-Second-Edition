@@ -1,16 +1,14 @@
-# LaTeX-Beginner-s-Guide-2nd-Edition
-LaTeX Beginner's Guide (2nd Edition), published by Packt
+# LaTeX-Beginner-s-Guide-Second-Edition
+LaTeX-Beginner-s-Guide-Second-Edition, published by Packt
 
 <a href="https://www.packtpub.com/product/latex-beginner-s-guides/9781801078658"><img src="https://static.packt-cdn.com/products/9781801078658/cover/smaller" alt="LaTeX-Beginner-s-Guide-2nd-Edition" height="256px" align="right"></a>
 
-This is the code repository for [LaTeX-Beginner-s-Guide-2nd-Edition](https://www.packtpub.com/product/latex-beginner-s-guides/9781801078658), published by Packt.
+This is the code repository for [LaTeX-Beginner-s-Guide-Second-Edition](https://www.packtpub.com/product/latex-beginner-s-guides/9781801078658), published by Packt.
 
-Create visually appealing texts, articles, and books for business and science using LaTeX
+**Create visually appealing texts, articles, and books for business and science using LaTeX**
 
 ## What is this book about?
 LaTeX is high-quality open source typesetting software that produces professional prints and PDF files. It's a powerful and complex tool with a multitude of features, so getting started can be intimidating. However, once you become comfortable with LaTeX, its capabilities far outweigh any initial challenges, and this book will help you with just that!
-The LaTeX Beginner's Guide will make beginning with LaTeX easy. If you are writing mathematical, scientific, or business papers, or have a thesis to write, this is the perfect book for you. With the help of fully explained examples, this book offers a practical introduction to LaTeX with plenty of step-by-step examples that will help you achieve professional-level results in no time. You'll learn to typeset documents containing tables, figures, formulas, and common book elements like bibliographies, glossaries, and indexes and go on to managing complex documents and using modern PDF features. You'll also get to grips with using macros and styles to maintain a consistent document structure while saving typing work.
-By the end of this LaTeX book, you'll have learned how to fine-tune text and page layout, create professional-looking tables, include figures, present complex mathematical formulas, manage complex documents, and benefit from modern PDF features.
 
 This book covers the following exciting features: 
 * Make the most of LaTeX's powerful features to produce professionally designed texts
@@ -18,8 +16,6 @@ This book covers the following exciting features:
 * Typeset math formulas and scientific expressions to the highest standards
 * Understand how to include graphics and work with figures and tables
 * Discover professional fonts and modern PDF features
-* Work with book elements such as bibliographies, glossaries, and indexes
-* Typeset documents containing tables, figures, and formulas
 
 If you feel this book is for you, get your [copy](https://www.amazon.com/dp/1801078653) today!
 
@@ -29,18 +25,14 @@ If you feel this book is for you, get your [copy](https://www.amazon.com/dp/1801
 All of the code is organized into folders.
 
 The code will look like the following:
-
+```
 \documentclass{article}
-
 \begin{document}
-
 Besides from {\itshape italics}, words can be {\bfseries bold},
-
 {\slshape slanted}, or typeset in {\scshape Small Caps}.
-
 \end{document}
 
-
+```
 **Following is what you need for this book:**
 
 If you are about to write mathematical or scientific papers, seminar handouts, or even plan to write a thesis, this book offers you a fast-paced and practical introduction to LaTeX. School and university students will find this easy-to-follow LaTeX guide helpful, as will mathematicians, physicists, engineers, and humanists. Anybody with high expectations from their software will discover how easy it is to leverage LaTeX's high performance for creating documents.
