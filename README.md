@@ -1,7 +1,7 @@
 # LaTeX-Beginner-s-Guide-Second-Edition
 LaTeX-Beginner-s-Guide-Second-Edition, published by Packt
 
-<a href="https://www.packtpub.com/product/latex-beginner-s-guides/9781801078658"><img src="https://static.packt-cdn.com/products/9781801078658/cover/smaller" alt="LaTeX-Beginner-s-Guide-2nd-Edition" height="256px" align="right"></a>
+<a href="https://www.packtpub.com/product/latex-beginner-s-guides/9781801078658"><img src="https://static.packt-cdn.com/products/9781801078658/cover/smaller" alt="LaTeX-Beginner-s-Guide-Second-Edition" height="256px" align="right"></a>
 
 This is the code repository for [LaTeX-Beginner-s-Guide-Second-Edition](https://www.packtpub.com/product/latex-beginner-s-guides/9781801078658), published by Packt.
 
@@ -51,6 +51,4 @@ With the following software and hardware list you can run all code files present
 * LaTeX Cookbook [[Packt]](https://www.packtpub.com/product/latex-beginner-s-guides/9781784395148) [[Amazon]](https://www.amazon.com/dp/1784395145)
 
 ## Get to Know the Author
-**Stefan Kottwitz** studied mathematics in Jena and Hamburg. He works as network and IT security engineer both for Lufthansa Industry Solutions and for Eurowings Aviation.
-For many years, he has been providing LaTeX support on online forums. He maintains the web forums LaTeX.org and goLaTeX.de and the Q&A sites TeXwelt.de and TeXnique.fr. He runs the TeX graphics gallery sites TeXample.net, TikZ.net, and PGFplots.net, the TeXlive.net online compiler, the TeXdoc.org service, and the CTAN.net software mirror. He is a moderator of the TeX Stack Exchange site and on matheplanet.com. He publishes ideas and news from the TeX world on his blogs LaTeX.net and TeX.co.
-Before this book, he authored the first edition of the LaTeX Beginner's Guide in 2011, and the LaTeX Cookbook in 2015, both with Packt Publishing.
+**Stefan Kottwitz** studied mathematics in Jena and Hamburg. He works as a network and IT security engineer both for Lufthansa Industry Solutions and for Eurowings Aviation.For many years, he has been providing LaTeX support on online forums. He maintains the web forums LaTeX.org and goLaTeX.de and the Q&A sites TeXwelt.de and TeXnique.fr.He runs the TeX graphics gallery sites TeXample.net, TikZ.net, and PGFplots.net, the TeXlive.net online compiler, the TeXdoc.org service, and the CTAN.net software mirror.He is a moderator of the TeX Stack Exchange site and matheplanet.com. He publishesideas and news from the TeX world on his blogs LaTeX.net and TeX.co.Before this book, he authored the first edition of LaTeX Beginner's Guide in 2011, and LaTeX Cookbook in 2015, both published by Packt.
