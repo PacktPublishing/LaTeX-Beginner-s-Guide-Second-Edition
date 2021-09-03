@@ -1,7 +1,7 @@
 # LaTeX-Beginner-s-Guide-Second-Edition
 LaTeX-Beginner-s-Guide-Second-Edition, published by Packt
 
-<a href="https://www.packtpub.com/product/latex-beginner-s-guides/9781801078658"><img src="https://static.packt-cdn.com/products/9781801078658/cover/smaller" alt="LaTeX-Beginner-s-Guide-Second-Edition" height="256px" align="right"></a>
+<a href="https://www.packtpub.com/product/latex-beginner-s-guides/9781801078658"><img src="https://github.com/PacktPublishing/LaTeX-Beginner-s-Guide-Second-Edition/blob/main/cover.png" alt="LaTeX-Beginner-s-Guide-Second-Edition" height="256px" align="right"></a>
 
 This is the code repository for [LaTeX-Beginner-s-Guide-Second-Edition](https://www.packtpub.com/product/latex-beginner-s-guides/9781801078658), published by Packt.
 
